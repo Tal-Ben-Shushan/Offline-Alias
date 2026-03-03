@@ -1,6 +1,6 @@
-# Welcome to Offline Alias Game 👋
+# Welcome to AliRush Game 👋
 
-Offline Alias Game
+AliRush Game
 
 ## Get started
 

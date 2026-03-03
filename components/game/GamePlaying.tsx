@@ -93,7 +93,12 @@ export function GamePlaying({
 function ThemeTextContainer({ word }: { word: string }) {
   return (
     <View style={styles.cardTextContainer}>
-      <ThemedText style={styles.cardText} adjustsFontSizeToFit numberOfLines={2}>
+      <ThemedText
+        style={styles.cardText}
+        adjustsFontSizeToFit
+        numberOfLines={3}
+        minimumFontScale={0.3}
+      >
         {word}
       </ThemedText>
     </View>
@@ -128,19 +133,18 @@ const styles = StyleSheet.create({
     elevation: 8,
   },
   cardTextContainer: {
-    paddingVertical: 40,
-    paddingHorizontal: 10,
+    padding: 0,
     justifyContent: "center",
     alignItems: "center",
     flex: 1,
     width: "100%",
-    height: "100%",
   },
   cardText: {
-    fontSize: 40,
+    fontSize: 35,
     fontWeight: "900",
     textAlign: "center",
     letterSpacing: 1,
+    height: 50,
   },
   swipeHints: {
     flexDirection: "row",

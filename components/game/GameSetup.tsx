@@ -27,7 +27,7 @@ export function GameSetup({
   return (
     <>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Offline Alias</ThemedText>
+        <ThemedText type="title">AliRush</ThemedText>
       </ThemedView>
 
       <ThemedView style={styles.settingContainer}>
