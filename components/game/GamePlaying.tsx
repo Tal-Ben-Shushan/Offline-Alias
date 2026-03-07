@@ -258,6 +258,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     letterSpacing: 1,
     height: 50,
+    width: "100%",
   },
   swipeHints: {
     flexDirection: "row",
